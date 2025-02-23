@@ -1,0 +1,40 @@
+#scrollToTopBtn {
+    display: none; 
+   /* Скрываем кнопку по умолчанию */
+   position: fixed;
+   /* Фиксируем кнопку на экране */
+   bottom: 20px;
+   /* Отступ от нижнего края */
+   right: 20px;
+   /* Отступ от правого края */
+   z-index: 99;
+   /* Убедимся, что кнопка поверх других элементов */
+   border: none;
+   /* Убираем границу */
+   outline: none;
+   /* Убираем контур */
+   background-color: #007bff;
+   /* Цвет фона */
+   color: white;
+   /* Цвет текста */
+   cursor: pointer;
+   /* Курсор в виде указателя */
+   padding: 15px;
+   /* Внутренний отступ */
+   border-radius: 50%;
+   /* Делаем кнопку круглой */
+   font-size: 18px;
+   /* Размер текста */
+}
+
+#scrollToTopBtn:hover {
+   background-color: #0056b3;
+   /* Цвет фона при наведении */
+}
+
+
+
+
+html {
+   scroll-behavior: smooth;
+}
